@@ -15,6 +15,11 @@ LEXICON Root
 
 NounRoot ;
 
+LEXICON RegNounInfl
+
+%<n%>%<sg%>:   # ;
+%<n%>%<pl%>:s   # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -22,11 +27,6 @@ NounRoot ;
 LEXICON NounRoot
 
 house RegNounInfl ; ! A noun
-
-LEXICON RegNounInfl
-
-%<n%>%<sg%>:   # ;
-%<n%>%<pl%>:s   # ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
